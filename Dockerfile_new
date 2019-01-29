@@ -6,5 +6,5 @@ EXPOSE 8080
 ENV DB db
 CMD ["go-demo"]
 
-COPY /build/go-demo /usr/local/bin/go-demo
+COPY go-demo /usr/local/bin/go-demo
 RUN chmod +x /usr/local/bin/go-demo
